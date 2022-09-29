@@ -1,0 +1,1 @@
+from .virtuaaliviivakoodi import virtuaaliviivakoodi

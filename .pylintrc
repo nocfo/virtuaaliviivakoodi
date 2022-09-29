@@ -1,0 +1,20 @@
+[MESSAGES CONTROL]
+disable=R0903, # Too few public methods
+        C0103, # Constant name doesn't conform to UPPER_CASE naming style
+        R0914, # Too many local variables
+        R0912, # Too many branches
+        R0801, # duplicate code
+        R0401, # Cyclic import
+        R0902, # Too many instance attributes
+        R1705, # No else return
+        R1720, # No else raise
+        W1202, # Logging format interpolation
+        W0703, # Catching too general exception
+        W0223, # Abstract method
+        C0114, # Missing module docstring
+        C0115, # Missing class docstring
+        C0116, # Missing function docstring
+        C0413, # Wrong import position
+        C0415, # Import outside toplevel
+        W0511, # Allow fixme
+        E1101, # No member

@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "virtuaaliviivakoodi"
+version = "1.0.0"
+description = "Python library for generating Finnish virtuaaliviivakoodi's"
+authors = ["Juho Enala <juho.enala@nocfo.io>"]
+readme = "README.md"
+license = "MIT"
+
+[project.urls]
+"Homepage" = "https://github.com/nocfo/virtuaaliviivakoodi"
+"Bug Tracker" = "https://github.com/nocfo/virtuaaliviivakoodi/issues"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+unittest = "^0.0"
+black = "^22.8.0"
+isort = "^5.10.1"
+parameterized = "^0.8.1"
+pre-commit = "^2.20.0"
+pylint = "^2.15.3"
+mypy = "^0.981"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
