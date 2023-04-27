@@ -11,10 +11,9 @@ license = "MIT"
 "Bug Tracker" = "https://github.com/nocfo/virtuaaliviivakoodi/issues"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8"
 
 [tool.poetry.dev-dependencies]
-unittest = "^0.0"
 black = "^22.8.0"
 isort = "^5.10.1"
 parameterized = "^0.8.1"
