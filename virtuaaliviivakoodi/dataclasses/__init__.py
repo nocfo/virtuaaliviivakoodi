@@ -1,0 +1,1 @@
+from .virtuaaliviivakoodi_deconstruct import VirtuaaliviivakoodiDeconstruct

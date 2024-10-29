@@ -1,1 +1,1 @@
-from .virtuaaliviivakoodi import virtuaaliviivakoodi
+from .virtuaaliviivakoodi import deconstruct_virtuaaliviivakoodi, virtuaaliviivakoodi

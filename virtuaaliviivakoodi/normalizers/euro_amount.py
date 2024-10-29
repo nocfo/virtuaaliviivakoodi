@@ -1,9 +1,10 @@
+import decimal
 from typing import Union
 
 from virtuaaliviivakoodi.utils import split_euros_and_cents
 
 
-def normalize_euro_amount(euro_amount: Union[float, int]) -> str:
+def normalize_euro_amount(euro_amount: Union[float, int, decimal.Decimal]) -> str:
     """
     Normalizes euro amount into length 8 string. E.g.
     123.23    > "00012323"
