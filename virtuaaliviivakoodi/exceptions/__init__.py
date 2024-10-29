@@ -16,3 +16,11 @@ class InvalidEuroAmountException(VirtuaaliviivakoodiException):
 
 class InvalidDueDateException(VirtuaaliviivakoodiException):
     pass
+
+
+class InvalidSymbolException(VirtuaaliviivakoodiException):
+    pass
+
+
+class InvalidLengthException(VirtuaaliviivakoodiException):
+    pass

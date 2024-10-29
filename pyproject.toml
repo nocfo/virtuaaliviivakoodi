@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "virtuaaliviivakoodi"
-version = "1.0.1"
-description = "Python library for generating Finnish virtuaaliviivakoodi's"
+version = "1.1.0"
+description = "Python library for generating and reading Finnish virtuaaliviivakoodi's"
 authors = ["Juho Enala <juho.enala@nocfo.io>"]
 readme = "README.md"
 license = "MIT"
